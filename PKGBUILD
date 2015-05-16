@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-xfce4
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="BBQLinux XFCE4 Desktop"
 arch=('any')
@@ -81,4 +81,7 @@ depends=(
 
 package() {
     cd "$pkgdir"
+    mkdir -p etc
+
+    cp -R "$srcdir/etc/skel" etc/skel
 }
