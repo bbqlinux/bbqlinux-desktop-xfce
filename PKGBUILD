@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-xfce4
-pkgver=1.0.2
+pkgver=1.0.3
 pkgrel=1
 pkgdesc="BBQLinux XFCE4 Desktop"
 arch=('any')
@@ -76,7 +76,6 @@ depends=(
 'xfce4-weather-plugin'
 'xfce4-whiskermenu-plugin'
 'xfce4-xkb-plugin'
-
 )
 
 package() {
