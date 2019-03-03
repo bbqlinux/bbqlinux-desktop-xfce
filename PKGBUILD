@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-xfce4
-pkgver=1.0.3
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="BBQLinux XFCE4 Desktop"
 arch=('any')
@@ -29,7 +29,6 @@ depends=(
 'thunar-volman'
 'tumbler'
 'xfce4-appfinder'
-'xfce4-mixer'
 'xfce4-panel'
 'xfce4-power-manager'
 'xfce4-session'
@@ -43,6 +42,7 @@ depends=(
 # xfce-goodies
 'mousepad'
 'orage'
+'parole'
 'ristretto'
 'thunar-archive-plugin'
 'thunar-media-tags-plugin'
@@ -64,6 +64,7 @@ depends=(
 'xfce4-netload-plugin'
 'xfce4-notes-plugin'
 'xfce4-notifyd'
+'xfce4-pulseaudio-plugin'
 'xfce4-screenshooter'
 'xfce4-sensors-plugin'
 'xfce4-smartbookmark-plugin'
